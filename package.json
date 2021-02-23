@@ -1,0 +1,17 @@
+{
+  "name": "object-auto-properties",
+  "version": "1.0.0",
+  "description": "Some functions that deal with object properties",
+  "main": "./index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinF06/object-auto-properties.git"
+  },
+  "author": "DevinF06",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevinF06/object-auto-properties/issues"
+  },
+  "homepage": "https://github.com/DevinF06/object-auto-properties#readme"
+}
