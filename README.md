@@ -2,12 +2,10 @@
 Some functions that deal with object properties
 
 ## How to use
-Click "Code" -> "Download ZIP"
-
-Unpack into your `node_modules` folder
-
-Rename `object-auto-properties-main` to `object-auto-properties`
-
+Install through npm with
+```
+npm i DevinF06/object-auto-properties
+```
 Require the module in your code
 
 ```js
@@ -56,7 +54,7 @@ Defines "autoProperty" `k` in object `o` with property `v`
 When "autoProperties" are defined they will remain until removed (with `delete object.foo` or ect.)
 
 ```js
-const { autoDefineProperty } = require('object-auto-property');
+const { autoDefineProperty } = require('object-auto-properties');
 var object = {}, foo = 1;
 object = autoDefineProperty(object, 'foo', {value: 'bar'});
 console.log(object.foo); // bar
